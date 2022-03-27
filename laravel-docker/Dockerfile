@@ -19,3 +19,4 @@ RUN composer install --no-scripts
 COPY . . 
 
 CMD php artisan serve --host=0.0.0.0 --port=80
+# Run this command after builing this container - docker run -p 8081:80 <image_name>
